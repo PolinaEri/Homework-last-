@@ -1,0 +1,276 @@
+@font-face {
+  font-family: Formular;
+  src: local("Formular"),
+       url(fonts/Formular-regular.otf);
+}
+
+@font-face {
+  font-family: Formular;
+  src: local("Formular"),
+       url(fonts/Formular-bold.otf);
+}
+
+@font-face {
+  font-family: Formular;
+  src: local("Formular"),
+       url(fonts/Formular-medium.otf);
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	height: 97px;
+	margin: 37px 0 0 0;
+}
+
+body{
+	padding: 0 30px;
+}
+
+a{
+	font-family: Formular;
+	font-size: 28px;
+ 	font-weight: bold;
+  	text-align: center;
+  	color: #4b721d;
+}
+
+a:hover{
+	text-decoration: none;
+	font-size: 28px;
+   font-weight: bold;
+  text-align: center;
+  color: #80bb3d;
+}
+
+div{
+
+}
+
+.header-link{
+	text-transform: uppercase;
+	font-family: Formular;
+  	font-size: 28px;
+  	font-weight: bold;
+}
+
+.promo-pic{
+	padding-bottom: 57px;
+	padding-right: 0;
+	padding-left: 0; 
+	width: 100%;
+}
+
+.product-box{
+	display: flex;
+	flex-direction: row;
+   	align-items: stretch;
+	position: relative;
+	margin-top: 21px;
+	justify-content: space-between;
+	padding-bottom: 55px;
+}
+
+.product-box-wrapper{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 0;
+	display: inline-block;
+	position: relative;
+	margin-right: 0;
+	margin-left: 0;
+	height: 100%;
+	border-radius: 2px;
+  	background-color: #fefefe;
+ 	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.21);
+}
+
+.product-box-wrapper-name{
+	margin-bottom: 36px;
+	margin-left: 29px;
+	display: block;
+	text-align: center;
+	font-size: 21px;
+  	text-align: left;
+  	color: #515151;
+}
+
+.product-box-price{
+	vertical-align: bottom;
+	width: 100%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-content: flex-end;
+}
+
+.product-box-price-o{
+	left: 30px;
+	position: relative;
+	bottom: 24px;
+	border-bottom: 24px;
+	font-size: 28px;
+	font-weight: bold;
+	text-align: left;
+	color: #9d9d9d;
+	text-decoration: line-through;
+}
+
+.product-box-price-n b{
+	font-size: 28px;
+  	font-weight: bold;
+  	text-align: right;
+  	color: #4b721d;
+}
+
+.product-box-price-n{
+	right: 30px;
+	position: relative;
+	bottom: 24px;
+ 	font-size: 21px;
+  	font-weight: normal;
+  	color: #4b721d;
+  	text-align: right;
+}
+
+
+.idea-link{
+	margin-bottom: 21px;
+}
+
+.idea-pic {
+	background-size: cover;
+	margin-bottom: 30px;
+	width: 100%;
+	border-radius: 2px;
+}
+
+.idea-pic-1{
+	position: relative;
+	box-shadow: inset 0 0 0 302px rgba(0, 0, 0, 0.33);
+	padding-right: 15px;
+	border-radius: 2px;
+ 	background-color: rgba(46, 46, 46, 0.21);
+	margin-right: 0;
+	margin-bottom: 30px;
+	height: 302px;
+	background-image: url(image/cp-1.jpg); 
+}
+
+.equal, .equal > div[class*='col-'] {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex:1 0 auto;
+}
+
+.product-box-new-line{
+  overflow:auto;
+  white-space:nowrap;
+}
+.col-sm-6, .col-xs-6{
+  display:inline-block;
+}
+
+
+.idea-pic-2{
+	position: relative;
+	box-shadow: inset 0 0 0 302px rgba(0, 0, 0, 0.33);
+	padding-left: 0;
+	border-radius: 2px;
+  	background-color: rgba(46, 46, 46, 0.21);
+	margin-bottom: 30px;
+	background-size: 100%;
+	height: 302px;
+	background-image: url(image/cp-2.jpg); 
+}
+
+.idea-pic-3{
+	position: relative;
+	box-shadow: inset 0 0 0 365px rgba(0, 0, 0, 0.33);
+	border-radius: 2px;
+	background-color: rgba(46, 46, 46, 0.21);
+	margin-bottom: 86px;
+	height: 365px;
+	background-size: 100%;
+	background-image: url(image/cp-3.jpg); 
+}
+
+.idea-pic-name {
+
+	background-color: transparent;
+	text-align: center; 
+	font-family: Formular;
+	font-size: 42px;
+	font-weight: bold;
+	float: center;
+	color: #ffffff;
+	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+}
+
+.idea-pic-name-3 {
+	text-transform: uppercase;
+	font-family: Formular;
+	font-size: 42px;
+	font-weight: bold;
+	float: center;
+	color: #ffffff;
+	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+}
+
+.idea-pic-name-3:hover{
+	font-family: Formular;
+	font-size: 42px;
+	font-weight: bold;
+	text-align: center;
+	color: #80bb3d;
+}
+
+.idea-pic-name:hover{
+	font-family: Formular;
+  font-size: 42px;
+  font-weight: bold;
+  text-align: center;
+  color: #80bb3d;
+}
+
+.footer-1{
+ 	background-color: #f4f4f4;
+ 	padding-bottom: 15px;
+}
+
+.footer-text{
+	margin-bottom: 36px;
+	margin-top: 36px;
+	font-family: Formular;
+	font-size: 21px;
+	text-align: left;
+	color: #666666;
+}
+
+.footer-text b{
+	font-family: Formular-medium;
+}
+
+.footer-2{
+	padding-bottom: 21px;
+	font-family: Formular;
+	font-size: 16px;
+	text-align: center;
+	color: #c3c3c3;
+}
